@@ -7,7 +7,11 @@ programa
         escreva("Digite a nota do aluno: ")
         leia(nota)
 
-        se (nota >= 6.0)
+        se (nota >= 9.0)
+        {
+            escreva("ALUNO DESTAQUE")
+        }
+        senao se (nota >= 6.0)
         {
             escreva("APROVADO")
         }
